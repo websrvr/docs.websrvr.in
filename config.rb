@@ -39,6 +39,7 @@
 # configure :development do
 #   activate :livereload
 # end
+activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -52,6 +53,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :build_dir, '/home/minhajuddin/Dropbox/Apps/websrvr/docs'
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
 
 # Build-specific configuration
 configure :build do

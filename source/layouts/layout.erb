@@ -1,19 +1,47 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-    
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <title><%= "#{current_page.data.title} - websrvr.in documentation" %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/custom.css">
   </head>
-  
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/docs" class="navbar-brand">websrvr.in docs</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="http://blog.websrvr.in/">blog</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.websrvr.in/" target="_blank">websrvr.in home</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <footer style="padding-top: 10px;margin-top: 10px;border-top: 1px solid #eee;">
+      <div class="container">
+        <p class="muted">
+          Cosmicvent Software Pvt Ltd © 2014. All Rights Reserved.
+          <small class="pull-right">
+            <a href="http://www.websrvr.in/"><img class="websrvr-badge" src="http://www.websrvr.in/images/websrvr-badge.png" alt="Powered by websrvr" title="Even this website is powered by websrvr. How cool is that?"></a>
+          </small>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
