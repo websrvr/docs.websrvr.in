@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <%self.sitemap.where(:sitemap.equal => true).all.each do |page| %>
+    <url>
+      <loc><%= "http://docs.websrvr.in#{page.url}" %></loc>
+      <changefreq><%= page.data.changefreq || 'weekly' %></changefreq>
+      <priority><%= page.data.priority || 0.8 %></priority>
+    </url>
+  <% end %>
+</urlset>
