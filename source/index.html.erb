@@ -1,8 +1,14 @@
 ---
-title: Home
+title: Documentation Home
+sitemap: true
 ---
 
 <div class="page-header" id="banner">
   <h2>Help articles</h2>
 </div>
-<h4><a href='/getting-started'>Getting started</a></h4>
+
+<ul class='list-unstyled'>
+  <%sitemap.where(:article_index.gte => 0).order_by(:article_index).all.each do |a| %>
+    <li><h4><a href='<%= a.url %>'><%= a.data.title %></a></h4></li>
+  <% end %>
+</ul>
