@@ -16,6 +16,7 @@
 # With no layout
 # page "/path/to/file.html", :layout => false
 page "/sitemap.xml", :layout => false, :directory_index => false
+page "/raw/*", :layout => false, :directory_index => false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -57,7 +58,7 @@ set :images_dir, 'images'
 
 set :build_dir, '/home/minhajuddin/Dropbox/Apps/websrvr/docs'
 set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown, :fenced_code_blocks => true, :smartypants => true, no_intra_emphasis: true, tables: true, autolink: true, disable_indented_code_blocks: true, strikethrough: true, superscript: true, underline: true
 
 
 # Build-specific configuration
