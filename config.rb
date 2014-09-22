@@ -60,6 +60,7 @@ set :build_dir, '/home/minhajuddin/Dropbox/Apps/websrvr/docs'
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true, no_intra_emphasis: true, tables: true, autolink: true, disable_indented_code_blocks: true, strikethrough: true, superscript: true, underline: true
 
+activate :syntax, :line_numbers => true
 
 # Build-specific configuration
 configure :build do

@@ -10,4 +10,8 @@ article_index: 0
 
 #Getting started
 
-#TO BE FLESHED OUT
+##1. Signup on websrvr
+You can signup for websrv by clicking on the "One click setup" on http://www.websrvr.in/
+
+
+##TO BE FLESHED OUT
