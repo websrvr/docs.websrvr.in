@@ -182,13 +182,16 @@ We'll use 2/3rds of the row for text and 1/3rd for the image.
     <div class="col-md-8">
       <h3>First featurette heading. It'll blow your mind.</h3>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
     </div>
     <div class="col-md-4">
@@ -202,13 +205,16 @@ We'll use 2/3rds of the row for text and 1/3rd for the image.
     <div class="col-md-8">
       <h3>First featurette heading. It'll blow your mind.</h3>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
     </div>
   </div>
@@ -216,13 +222,16 @@ We'll use 2/3rds of the row for text and 1/3rd for the image.
     <div class="col-md-8">
       <h3>First featurette heading. It'll blow your mind.</h3>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
       <p class='lead'>
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+        vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
       </p>
     </div>
     <div class="col-md-4">
