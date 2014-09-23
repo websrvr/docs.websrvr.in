@@ -10,7 +10,7 @@ priority: 1
 </div>
 
 <ul class='list-unstyled'>
-  <%sitemap.where(:article_index.gte => 0).order_by(:article_index).all.each do |a| %>
+  <%sitemap.where(:articleidx.gte => 0).order_by(:articleidx).all.each do |a| %>
     <li><h4><a href='<%= a.url %>'><%= a.data.title %></a></h4></li>
   <% end %>
 </ul>

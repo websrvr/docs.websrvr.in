@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title><%= "#{current_page.data.title} - websrvr.in documentation" %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/custom.css">
     <link rel="stylesheet" href="/stylesheets/code.css">
 <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -15,7 +15,7 @@ mixpanel.init("355570aff83a8f53938cc262f5d530b9");mixpanel.track("<%=current_pag
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">websrvr.in docs</a>
+          <a href="/" class="navbar-brand">websrvr documentation</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -24,17 +24,24 @@ mixpanel.init("355570aff83a8f53938cc262f5d530b9");mixpanel.track("<%=current_pag
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
-            <li>
-              <a href="http://blog.websrvr.in/">blog</a>
-            </li>
+            <li><a href="/">home</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://www.websrvr.in/" target="_blank">websrvr.in home</a></li>
+            <li><a href="http://blog.websrvr.in/">blog</a></li>
+            <li><a href="http://www.websrvr.in/" target="_blank">websrvr home</a></li>
           </ul>
         </div>
       </div>
     </div>
+
     <div class="container">
+
+      <% if File.extname(current_page.source_file) == ".md" %>
+      <div class="page-header" id="banner">
+        <h2><%= current_page.data.title %></h2>
+      </div>
+      <% end %>
+
       <%= yield %>
     </div>
     <footer style="padding-top: 10px;margin-top: 10px;border-top: 1px solid #eee;">

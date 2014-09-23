@@ -4,7 +4,7 @@ tags:
  - design
  - beginner
 sitemap: true
-article_index: 2
+articleidx: 1
 ---
 
 Building a simple website isn't very hard. In this article we will build a

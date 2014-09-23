@@ -4,7 +4,7 @@ tags:
  - swag
  - beginner
 sitemap: true
-article_index: 100
+articleidx: 100
 ---
 You can use the following badges to support websrvr :)
 
