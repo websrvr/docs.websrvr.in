@@ -14,5 +14,5 @@ share files on my local network and test small static file applications. You can
 download it from github to use it for building stuff locally before pushing it
 to websrvr.
 
-[Linux binary](https://github.com/minhajuddin/fs/releases/download/linux/fs)
-[Windows binary](https://github.com/minhajuddin/fs/releases/download/v1.0/fs.exe)
+ - [Linux binary](https://github.com/minhajuddin/fs/releases/download/linux/fs)
+ - [Windows binary](https://github.com/minhajuddin/fs/releases/download/v1.0/fs.exe)
