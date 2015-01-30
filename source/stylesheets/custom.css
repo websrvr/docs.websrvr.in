@@ -1,2 +1,12 @@
 body{ padding-top: 60px; }
 .page-header{ margin-top: 30px;}
+
+.callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee;
+}
+.callout-info {
+  background-color: #f4f8fa;
+  border-color: #5bc0de;
+}

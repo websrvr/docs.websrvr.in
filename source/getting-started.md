@@ -23,12 +23,20 @@ your websrvr home page.
 ##3. Create new websites
 If you want to create more websites, you can just create folders in your **Dropbox > Apps > websrvr** folder and they'll be online at http://*foldername*.websrvr.in
 
-##4. Wireup a domain
+##4. Wireup a subdomain
 Once the site is ready you can optionally put it on a **CNAME**. e.g. if you
 own the domain *foobar.com* and want to put the website
 *testawesome.websrvr.in* on **www.foobar.com**. All you need to do is create a
 CNAME called *www* and point it to *testawesome.websrvr.in*.
 `CNAME www.foobar.com => testawesome.websrvr.in`
+
+##5. Wireup a naked domain
+If you want to use the naked domain instead of a subdomain or cname, you can
+point it to the IP **104.131.15.246**
+e.g. If I wanted to setup a website at *awesome.com*, I would do the following:
+
+  1. Setup the domain **awesome.com** to point to **104.131.15.246**
+  2. Change the domain in the websrvr control panel to **awesome.com**
 
 That's all, now you have a high performance website [whose css, javascript and
 html are minified and gzipped](http://blog.websrvr.in/2014/09/23/websrvr-now-minifies-and-gzips-your-css-javascript-and-html/) to give your users a fast website.

@@ -6,11 +6,27 @@ priority: 1
 ---
 
 <div class="page-header" id="banner">
-  <h2>Help articles</h2>
+  <h2>Help</h2>
 </div>
 
+<h3>1. Setup your site on an A Record/Naked Domain</h3>
+<p>If you want to setup your website on an A Record / Naked Domain (e.g. cosmicvent.com, note the absence of a 'www' prefix), login to your DNS web console and</p>
+<div class="callout callout-info">
+  <h4>Point the A record to 104.131.15.246</h4>
+</div>
+<h3>2. Setup your site on a CNAME</h3>
+<p>If you want to setup your website on CNAME e.g. www.cosmicvent.com</p>
+<div class="callout callout-info">
+  <h4>Setup a CNAME for "www" to point to your websrvr's subdomain e.g. cosmicvent.websrvr.in</h4>
+</div>
+
+<p class=lead>For the above two examples you need to have a website on websrvr whose domain is set correctly in the websrvr control panel e.g. 'cosmicvent.com' in the first scenario or 'www.cosmicvent.com' in the second scenario.</p>
+
+<div class="page-header" id="banner">
+  <h2>Other articles</h2>
+</div>
 <ul class='list-unstyled'>
   <%sitemap.where(:articleidx.gte => 0).order_by(:articleidx).all.each do |a| %>
     <li><h4><a href='<%= a.url %>'><%= a.data.title %></a></h4></li>
-  <% end %>
+<% end %>
 </ul>
